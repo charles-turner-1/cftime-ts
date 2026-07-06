@@ -1,5 +1,11 @@
 # cftime-ts
 
+> [!WARNING]
+> This is a **work in progress**, and I've had Claude (Opus 4.8) scaffold it for me. Because of that, it might look good (IDK),
+> but it is probably not complete and/or has not been drive-tested in any meaningful sense of the word. Claims about functionality
+> in this README should be considered probable at best, and aspirational at worst.
+> Use at your own caution (whilst this warning is still up. I'll get rid of it once I'm confident in the codebase).
+
 A TypeScript implementation of CF-convention calendar datetimes — a faithful port of the
 Python [`cftime`](https://github.com/Unidata/cftime) library. Zero runtime dependencies,
 ESM, works in Node and the browser.
