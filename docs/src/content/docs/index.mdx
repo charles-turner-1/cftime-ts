@@ -1,0 +1,51 @@
+---
+title: Introduction
+description: A TypeScript port of Python cftime — CF-convention calendar datetimes in Node and the browser.
+---
+
+import RunnableCell from "@components/RunnableCell.astro";
+
+**cftime-ts** is a TypeScript port of the Python
+[`cftime`](https://github.com/Unidata/cftime) library. It decodes and encodes
+the numeric time axes used in netCDF / CF-convention datasets
+(`"days since 2000-01-01"`) into calendar-aware datetime objects, across all
+**nine CF calendars** — including the non-standard ones (`noleap`, `360_day`,
+`all_leap`, `julian`, …) that a plain JavaScript `Date` cannot represent.
+
+It is a faithful port: the same calendar arithmetic, Julian-day handling, the
+1582 Gregorian-reform gap, and year-zero conventions as the Python original.
+**Zero runtime dependencies**, ESM, and it runs anywhere JavaScript does.
+
+## Try it right now
+
+Every code cell in these docs is **live and editable, and runs entirely in your
+browser** — no server, no network. Edit the code and press **Run**.
+
+<RunnableCell
+  title="A first look"
+  code={`// Decode a numeric netCDF time value using the 365-day 'noleap' calendar.
+const d = num2date(730, "days since 2000-01-01", { calendar: "noleap" });
+
+// 730 days of 365-day years = exactly 2 years — no leap day in between.
+d.isoformat(" ")`}
+/>
+
+## What it does
+
+- **`num2date` / `date2num`** — convert between numeric netCDF time values and
+  calendar datetimes, for any CF calendar.
+- **Nine CF calendars** — `standard`/`gregorian`, `proleptic_gregorian`,
+  `julian`, `tai`, `noleap`/`365_day`, `all_leap`/`366_day`, `360_day`.
+- **Calendar-aware arithmetic** — add/subtract `Timedelta`s, take the gap
+  between two dates, and compare dates across calendars (conversion is
+  automatic).
+- **netCDF indexing** — `date2index` / `time2index` locate positions in a
+  monotonic time axis (`exact` / `before` / `after` / `nearest`).
+
+## Where to next
+
+- [Installation](/install/) — add it to your project.
+- [Getting started](/getting-started/) — decode and encode a time axis.
+- [The nine calendars](/guide/calendars/) — what makes each one different.
+- [num2date & date2num](/guide/num2date-date2num/) — the core conversions.
+- [API reference](/api/readme/) — generated from the source.

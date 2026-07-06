@@ -1,0 +1,76 @@
+---
+title: Arithmetic & comparison
+description: Timedeltas, date differences, comparison, and changing calendars.
+---
+
+import RunnableCell from "@components/RunnableCell.astro";
+
+JavaScript has no operator overloading, so date arithmetic is done with
+**methods**: `.add`, `.sub`, `.equals`, `.compareTo`, `.isBefore`, `.isAfter`.
+
+## Adding a Timedelta
+
+A `Timedelta` is a duration built from `weeks`, `days`, `hours`, `minutes`,
+`seconds`, `milliseconds`, `microseconds`. Adding one respects the calendar.
+
+<RunnableCell
+  title="add"
+  code={`const d = new CFDatetime(2000, 1, 1, 0, 0, 0, 0, { calendar: "noleap" });
+// 365 days is exactly one year in the 'noleap' calendar.
+const later = d.add(new Timedelta({ days: 365 }));
+later.isoformat(" ")`}
+/>
+
+## Differences between dates
+
+`a.sub(b)` returns a `Timedelta` — the gap between two datetimes on the same
+calendar.
+
+<RunnableCell
+  title="sub"
+  code={`const a = new CFDatetime(2000, 3, 1, 0, 0, 0, 0, { calendar: "noleap" });
+const b = new CFDatetime(2000, 1, 1, 0, 0, 0, 0, { calendar: "noleap" });
+const gap = a.sub(b);
+console.log("days:", gap.days);            // 59 — noleap Feb has 28 days
+console.log("as Timedelta:", gap.toString());`}
+/>
+
+## Comparison
+
+`compareTo` returns `-1 | 0 | 1`; the boolean helpers read more naturally.
+
+<RunnableCell
+  title="isBefore / isAfter"
+  code={`const a = new CFDatetime(2000, 1, 1, 0, 0, 0, 0, { calendar: "standard" });
+const b = new CFDatetime(2001, 1, 1, 0, 0, 0, 0, { calendar: "standard" });
+[a.isBefore(b), a.isAfter(b), a.equals(a)]`}
+/>
+
+## Changing calendars
+
+`changeCalendar` re-expresses a date on another calendar by preserving the
+underlying instant (its Julian day). Comparison across calendars converts
+automatically, so equal instants compare equal.
+
+<RunnableCell
+  title="changeCalendar"
+  code={`// The Modified Julian Date epoch, in proleptic Gregorian…
+const g = new CFDatetime(1858, 11, 17, 0, 0, 0, 0, { calendar: "proleptic_gregorian" });
+// …is the same instant in the Julian calendar, just written differently.
+const j = g.changeCalendar("julian");
+console.log("gregorian:", g.isoformat());
+console.log("julian:   ", j.isoformat());
+console.log("equal instant:", g.equals(j));`}
+/>
+
+## replace
+
+`replace` returns a new datetime with some fields swapped (the calendar is kept).
+
+<RunnableCell
+  title="replace"
+  code={`const d = new CFDatetime(2000, 1, 1, 0, 0, 0, 0, { calendar: "standard" });
+d.replace({ year: 2025, month: 12 }).isoformat(" ")`}
+/>
+
+Next: [netCDF indexing](/guide/indexing/).

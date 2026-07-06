@@ -1,0 +1,57 @@
+---
+title: The nine CF calendars
+description: What distinguishes each CF calendar, and how to pick one.
+---
+
+import RunnableCell from "@components/RunnableCell.astro";
+
+CF-convention datasets can use one of several calendars. cftime-ts implements
+all nine, grouped by their aliases:
+
+| Calendar              | Aliases     | Leap years                     | Notes                     |
+| --------------------- | ----------- | ------------------------------ | ------------------------- |
+| `standard`            | `gregorian` | Julian ≤ 1582, Gregorian after | Has the 1582 reform gap   |
+| `proleptic_gregorian` | —           | Gregorian rule for all years   |                           |
+| `julian`              | —           | every 4th year                 | No year zero by default   |
+| `tai`                 | —           | Gregorian rule                 | International Atomic Time |
+| `noleap`              | `365_day`   | never                          | Every year has 365 days   |
+| `all_leap`            | `366_day`   | always                         | Every year has 366 days   |
+| `360_day`             | —           | n/a                            | Twelve 30-day months      |
+
+## Leap years differ by calendar
+
+The same year is a leap year in some calendars and not others.
+
+<RunnableCell
+  title="isLeapYear across calendars"
+  code={`const year = 1900;
+for (const cal of ["standard", "proleptic_gregorian", "julian", "noleap", "all_leap"]) {
+  console.log(cal.padEnd(22), isLeapYear(year, cal));
+}`}
+/>
+
+## Non-standard calendars change the arithmetic
+
+Under `360_day`, every month has 30 days — so 90 days is exactly three months,
+regardless of where in the year you start.
+
+<RunnableCell
+  title="360-day months"
+  code={`const d = num2date(90, "days since 2000-01-01", { calendar: "360_day" });
+d.isoformat(" ")`}
+/>
+
+## The 1582 Gregorian reform gap
+
+The `standard` calendar switches from Julian to Gregorian in October 1582:
+the days 1582-10-05 through 1582-10-14 **do not exist**. cftime-ts reproduces
+this gap faithfully — dates step straight from the 4th to the 15th.
+
+<RunnableCell
+  title="The missing ten days"
+  code={`const units = "days since 1582-10-01";
+// Watch the day-of-month jump across the reform gap.
+num2date([3, 4, 5, 6], units, { calendar: "standard" }).map((d) => d.isoformat())`}
+/>
+
+Next: [num2date & date2num](/guide/num2date-date2num/).
