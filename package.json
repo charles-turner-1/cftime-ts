@@ -1,6 +1,6 @@
 {
   "name": "cftime-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript implementation of CF-convention calendar datetimes (a port of Python cftime): num2date, date2num, and nine CF calendars.",
   "type": "module",
   "main": "./dist/index.js",
