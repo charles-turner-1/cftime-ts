@@ -1,0 +1,5390 @@
+{
+  "cftime_version": "1.6.5",
+  "data": {
+    "is_leap_year": [
+      {
+        "year": -5,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": -4,
+        "calendar": "standard",
+        "leap": false
+      },
+      {
+        "year": -1,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": 0,
+        "calendar": "standard",
+        "leap": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 1,
+        "calendar": "standard",
+        "leap": false
+      },
+      {
+        "year": 4,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": 100,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": 400,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": 1500,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": 1582,
+        "calendar": "standard",
+        "leap": false
+      },
+      {
+        "year": 1600,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": 1700,
+        "calendar": "standard",
+        "leap": false
+      },
+      {
+        "year": 1900,
+        "calendar": "standard",
+        "leap": false
+      },
+      {
+        "year": 2000,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": 2001,
+        "calendar": "standard",
+        "leap": false
+      },
+      {
+        "year": 2004,
+        "calendar": "standard",
+        "leap": true
+      },
+      {
+        "year": -5,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": -4,
+        "calendar": "gregorian",
+        "leap": false
+      },
+      {
+        "year": -1,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": 0,
+        "calendar": "gregorian",
+        "leap": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 1,
+        "calendar": "gregorian",
+        "leap": false
+      },
+      {
+        "year": 4,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": 100,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": 400,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": 1500,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": 1582,
+        "calendar": "gregorian",
+        "leap": false
+      },
+      {
+        "year": 1600,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": 1700,
+        "calendar": "gregorian",
+        "leap": false
+      },
+      {
+        "year": 1900,
+        "calendar": "gregorian",
+        "leap": false
+      },
+      {
+        "year": 2000,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": 2001,
+        "calendar": "gregorian",
+        "leap": false
+      },
+      {
+        "year": 2004,
+        "calendar": "gregorian",
+        "leap": true
+      },
+      {
+        "year": -5,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": -4,
+        "calendar": "proleptic_gregorian",
+        "leap": true
+      },
+      {
+        "year": -1,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 0,
+        "calendar": "proleptic_gregorian",
+        "leap": true
+      },
+      {
+        "year": 1,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 4,
+        "calendar": "proleptic_gregorian",
+        "leap": true
+      },
+      {
+        "year": 100,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 400,
+        "calendar": "proleptic_gregorian",
+        "leap": true
+      },
+      {
+        "year": 1500,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 1582,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 1600,
+        "calendar": "proleptic_gregorian",
+        "leap": true
+      },
+      {
+        "year": 1700,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 1900,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 2000,
+        "calendar": "proleptic_gregorian",
+        "leap": true
+      },
+      {
+        "year": 2001,
+        "calendar": "proleptic_gregorian",
+        "leap": false
+      },
+      {
+        "year": 2004,
+        "calendar": "proleptic_gregorian",
+        "leap": true
+      },
+      {
+        "year": -5,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": -4,
+        "calendar": "julian",
+        "leap": false
+      },
+      {
+        "year": -1,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 0,
+        "calendar": "julian",
+        "leap": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 1,
+        "calendar": "julian",
+        "leap": false
+      },
+      {
+        "year": 4,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 100,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 400,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 1500,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 1582,
+        "calendar": "julian",
+        "leap": false
+      },
+      {
+        "year": 1600,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 1700,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 1900,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 2000,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": 2001,
+        "calendar": "julian",
+        "leap": false
+      },
+      {
+        "year": 2004,
+        "calendar": "julian",
+        "leap": true
+      },
+      {
+        "year": -5,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": -4,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": -1,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 0,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 1,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 4,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 100,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 400,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 1500,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 1582,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 1600,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 1700,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 1900,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 2000,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 2001,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": 2004,
+        "calendar": "noleap",
+        "leap": false
+      },
+      {
+        "year": -5,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": -4,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": -1,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 0,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 1,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 4,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 100,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 400,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 1500,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 1582,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 1600,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 1700,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 1900,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 2000,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 2001,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": 2004,
+        "calendar": "365_day",
+        "leap": false
+      },
+      {
+        "year": -5,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": -4,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": -1,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 0,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 1,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 4,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 100,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 400,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 1500,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 1582,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 1600,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 1700,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 1900,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 2000,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 2001,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": 2004,
+        "calendar": "all_leap",
+        "leap": true
+      },
+      {
+        "year": -5,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": -4,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": -1,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 0,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 1,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 4,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 100,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 400,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 1500,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 1582,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 1600,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 1700,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 1900,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 2000,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 2001,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": 2004,
+        "calendar": "366_day",
+        "leap": true
+      },
+      {
+        "year": -5,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": -4,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": -1,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 0,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 1,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 4,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 100,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 400,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 1500,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 1582,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 1600,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 1700,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 1900,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 2000,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 2001,
+        "calendar": "360_day",
+        "leap": false
+      },
+      {
+        "year": 2004,
+        "calendar": "360_day",
+        "leap": false
+      }
+    ],
+    "toordinal": [
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 1721424,
+        "toordinal_fractional": 1721423.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 4,
+        "calendar": "standard",
+        "toordinal": 2299160,
+        "toordinal_fractional": 2299159.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "calendar": "standard",
+        "toordinal": 2299161,
+        "toordinal_fractional": 2299160.5
+      },
+      {
+        "year": 1858,
+        "month": 11,
+        "day": 17,
+        "calendar": "standard",
+        "toordinal": 2400001,
+        "toordinal_fractional": 2400000.5
+      },
+      {
+        "year": 1970,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 2440588,
+        "toordinal_fractional": 2440587.5
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 2451545,
+        "toordinal_fractional": 2451544.5
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 29,
+        "calendar": "standard",
+        "toordinal": 2451604,
+        "toordinal_fractional": 2451603.5
+      },
+      {
+        "year": 2000,
+        "month": 3,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 2451605,
+        "toordinal_fractional": 2451604.5
+      },
+      {
+        "year": -1,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 1721058,
+        "toordinal_fractional": 1721057.5
+      },
+      {
+        "year": -4713,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 0,
+        "toordinal_fractional": -0.5
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "day": 31,
+        "calendar": "standard",
+        "toordinal": 2459215,
+        "toordinal_fractional": 2459214.5
+      },
+      {
+        "year": 100,
+        "month": 3,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 1757643,
+        "toordinal_fractional": 1757642.5
+      },
+      {
+        "year": 0,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "toordinal": 1721058,
+        "toordinal_fractional": 1721057.5
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 1721426,
+        "toordinal_fractional": 1721425.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 4,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2299150,
+        "toordinal_fractional": 2299149.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2299161,
+        "toordinal_fractional": 2299160.5
+      },
+      {
+        "year": 1858,
+        "month": 11,
+        "day": 17,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2400001,
+        "toordinal_fractional": 2400000.5
+      },
+      {
+        "year": 1970,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2440588,
+        "toordinal_fractional": 2440587.5
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2451545,
+        "toordinal_fractional": 2451544.5
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 29,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2451604,
+        "toordinal_fractional": 2451603.5
+      },
+      {
+        "year": 2000,
+        "month": 3,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2451605,
+        "toordinal_fractional": 2451604.5
+      },
+      {
+        "year": -1,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 1720695,
+        "toordinal_fractional": 1720694.5
+      },
+      {
+        "year": -4713,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": -327,
+        "toordinal_fractional": -327.5
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "day": 31,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 2459215,
+        "toordinal_fractional": 2459214.5
+      },
+      {
+        "year": 100,
+        "month": 3,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 1757644,
+        "toordinal_fractional": 1757643.5
+      },
+      {
+        "year": 0,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "toordinal": 1721060,
+        "toordinal_fractional": 1721059.5
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 1721424,
+        "toordinal_fractional": 1721423.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 4,
+        "calendar": "julian",
+        "toordinal": 2299160,
+        "toordinal_fractional": 2299159.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "calendar": "julian",
+        "toordinal": 2299171,
+        "toordinal_fractional": 2299170.5
+      },
+      {
+        "year": 1858,
+        "month": 11,
+        "day": 17,
+        "calendar": "julian",
+        "toordinal": 2400013,
+        "toordinal_fractional": 2400012.5
+      },
+      {
+        "year": 1970,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 2440601,
+        "toordinal_fractional": 2440600.5
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 2451558,
+        "toordinal_fractional": 2451557.5
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 29,
+        "calendar": "julian",
+        "toordinal": 2451617,
+        "toordinal_fractional": 2451616.5
+      },
+      {
+        "year": 2000,
+        "month": 3,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 2451618,
+        "toordinal_fractional": 2451617.5
+      },
+      {
+        "year": -1,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 1721058,
+        "toordinal_fractional": 1721057.5
+      },
+      {
+        "year": -4713,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 0,
+        "toordinal_fractional": -0.5
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "day": 31,
+        "calendar": "julian",
+        "toordinal": 2459228,
+        "toordinal_fractional": 2459227.5
+      },
+      {
+        "year": 100,
+        "month": 3,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 1757643,
+        "toordinal_fractional": 1757642.5
+      },
+      {
+        "year": 0,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "toordinal": 1721058,
+        "toordinal_fractional": 1721057.5
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": 365,
+        "toordinal_fractional": 364.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 4,
+        "calendar": "noleap",
+        "toordinal": 577706,
+        "toordinal_fractional": 577705.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "calendar": "noleap",
+        "toordinal": 577717,
+        "toordinal_fractional": 577716.5
+      },
+      {
+        "year": 1858,
+        "month": 11,
+        "day": 17,
+        "calendar": "noleap",
+        "toordinal": 678490,
+        "toordinal_fractional": 678489.5
+      },
+      {
+        "year": 1970,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": 719050,
+        "toordinal_fractional": 719049.5
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": 730000,
+        "toordinal_fractional": 729999.5
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 29,
+        "calendar": "noleap",
+        "toordinal": {
+          "__error__": "ValueError"
+        },
+        "toordinal_fractional": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 2000,
+        "month": 3,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": 730059,
+        "toordinal_fractional": 730058.5
+      },
+      {
+        "year": -1,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": -365,
+        "toordinal_fractional": -365.5
+      },
+      {
+        "year": -4713,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": -1720245,
+        "toordinal_fractional": -1720245.5
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "day": 31,
+        "calendar": "noleap",
+        "toordinal": 737664,
+        "toordinal_fractional": 737663.5
+      },
+      {
+        "year": 100,
+        "month": 3,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": 36559,
+        "toordinal_fractional": 36558.5
+      },
+      {
+        "year": 0,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "toordinal": 0,
+        "toordinal_fractional": -0.5
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": 366,
+        "toordinal_fractional": 365.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 4,
+        "calendar": "all_leap",
+        "toordinal": 579289,
+        "toordinal_fractional": 579288.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "calendar": "all_leap",
+        "toordinal": 579300,
+        "toordinal_fractional": 579299.5
+      },
+      {
+        "year": 1858,
+        "month": 11,
+        "day": 17,
+        "calendar": "all_leap",
+        "toordinal": 680349,
+        "toordinal_fractional": 680348.5
+      },
+      {
+        "year": 1970,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": 721020,
+        "toordinal_fractional": 721019.5
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": 732000,
+        "toordinal_fractional": 731999.5
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 29,
+        "calendar": "all_leap",
+        "toordinal": 732059,
+        "toordinal_fractional": 732058.5
+      },
+      {
+        "year": 2000,
+        "month": 3,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": 732060,
+        "toordinal_fractional": 732059.5
+      },
+      {
+        "year": -1,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": -366,
+        "toordinal_fractional": -366.5
+      },
+      {
+        "year": -4713,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": -1724958,
+        "toordinal_fractional": -1724958.5
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "day": 31,
+        "calendar": "all_leap",
+        "toordinal": 739685,
+        "toordinal_fractional": 739684.5
+      },
+      {
+        "year": 100,
+        "month": 3,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": 36660,
+        "toordinal_fractional": 36659.5
+      },
+      {
+        "year": 0,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "toordinal": 0,
+        "toordinal_fractional": -0.5
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": 360,
+        "toordinal_fractional": 359.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 4,
+        "calendar": "360_day",
+        "toordinal": 569793,
+        "toordinal_fractional": 569792.5
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "calendar": "360_day",
+        "toordinal": 569804,
+        "toordinal_fractional": 569803.5
+      },
+      {
+        "year": 1858,
+        "month": 11,
+        "day": 17,
+        "calendar": "360_day",
+        "toordinal": 669196,
+        "toordinal_fractional": 669195.5
+      },
+      {
+        "year": 1970,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": 709200,
+        "toordinal_fractional": 709199.5
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": 720000,
+        "toordinal_fractional": 719999.5
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 29,
+        "calendar": "360_day",
+        "toordinal": 720058,
+        "toordinal_fractional": 720057.5
+      },
+      {
+        "year": 2000,
+        "month": 3,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": 720060,
+        "toordinal_fractional": 720059.5
+      },
+      {
+        "year": -1,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": -360,
+        "toordinal_fractional": -360.5
+      },
+      {
+        "year": -4713,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": -1696680,
+        "toordinal_fractional": -1696680.5
+      },
+      {
+        "year": 2020,
+        "month": 12,
+        "day": 31,
+        "calendar": "360_day",
+        "toordinal": {
+          "__error__": "ValueError"
+        },
+        "toordinal_fractional": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 100,
+        "month": 3,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": 36060,
+        "toordinal_fractional": 36059.5
+      },
+      {
+        "year": 0,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "toordinal": 0,
+        "toordinal_fractional": -0.5
+      }
+    ],
+    "properties": [
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "day": 15,
+        "calendar": "standard",
+        "props": {
+          "dayofwk": 6,
+          "dayofyr": 75,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "standard",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2021,
+        "month": 12,
+        "day": 31,
+        "calendar": "standard",
+        "props": {
+          "dayofwk": 4,
+          "dayofyr": 365,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 28,
+        "calendar": "standard",
+        "props": {
+          "dayofwk": 0,
+          "dayofyr": 59,
+          "daysinmonth": 29
+        }
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "day": 15,
+        "calendar": "proleptic_gregorian",
+        "props": {
+          "dayofwk": 6,
+          "dayofyr": 75,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "proleptic_gregorian",
+        "props": {
+          "dayofwk": 0,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2021,
+        "month": 12,
+        "day": 31,
+        "calendar": "proleptic_gregorian",
+        "props": {
+          "dayofwk": 4,
+          "dayofyr": 365,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 28,
+        "calendar": "proleptic_gregorian",
+        "props": {
+          "dayofwk": 0,
+          "dayofyr": 59,
+          "daysinmonth": 29
+        }
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "props": {
+          "dayofwk": 4,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "day": 15,
+        "calendar": "julian",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 75,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "julian",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2021,
+        "month": 12,
+        "day": 31,
+        "calendar": "julian",
+        "props": {
+          "dayofwk": 3,
+          "dayofyr": 365,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 28,
+        "calendar": "julian",
+        "props": {
+          "dayofwk": 6,
+          "dayofyr": 59,
+          "daysinmonth": 29
+        }
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "day": 15,
+        "calendar": "noleap",
+        "props": {
+          "dayofwk": 0,
+          "dayofyr": 74,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "noleap",
+        "props": {
+          "dayofwk": 1,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2021,
+        "month": 12,
+        "day": 31,
+        "calendar": "noleap",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 365,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 28,
+        "calendar": "noleap",
+        "props": {
+          "dayofwk": 0,
+          "dayofyr": 59,
+          "daysinmonth": 28
+        }
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "props": {
+          "dayofwk": 3,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "day": 15,
+        "calendar": "all_leap",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 75,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "all_leap",
+        "props": {
+          "dayofwk": 2,
+          "dayofyr": 1,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2021,
+        "month": 12,
+        "day": 31,
+        "calendar": "all_leap",
+        "props": {
+          "dayofwk": 4,
+          "dayofyr": 366,
+          "daysinmonth": 31
+        }
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 28,
+        "calendar": "all_leap",
+        "props": {
+          "dayofwk": 5,
+          "dayofyr": 59,
+          "daysinmonth": 29
+        }
+      },
+      {
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "props": {
+          "dayofwk": 1,
+          "dayofyr": 1,
+          "daysinmonth": 30
+        }
+      },
+      {
+        "year": 2020,
+        "month": 3,
+        "day": 15,
+        "calendar": "360_day",
+        "props": {
+          "dayofwk": 2,
+          "dayofyr": 75,
+          "daysinmonth": 30
+        }
+      },
+      {
+        "year": 1,
+        "month": 1,
+        "day": 1,
+        "calendar": "360_day",
+        "props": {
+          "dayofwk": 3,
+          "dayofyr": 1,
+          "daysinmonth": 30
+        }
+      },
+      {
+        "year": 2021,
+        "month": 12,
+        "day": 31,
+        "calendar": "360_day",
+        "props": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 2000,
+        "month": 2,
+        "day": 28,
+        "calendar": "360_day",
+        "props": {
+          "dayofwk": 2,
+          "dayofyr": 58,
+          "daysinmonth": 30
+        }
+      }
+    ],
+    "formatting": [
+      {
+        "args": [2000, 1, 1, 12, 30, 45, 123456, "standard"],
+        "out": {
+          "isoformat_default": "2000-01-01T12:30:45.123456",
+          "isoformat_space": "2000-01-01 12:30:45.123456",
+          "isoformat_seconds": "2000-01-01 12:30:45",
+          "isoformat_days": "2000-01-01",
+          "isoformat_hours": "2000-01-01T12",
+          "isoformat_minutes": "2000-01-01T12:30",
+          "isoformat_milliseconds": "2000-01-01T12:30:45.123",
+          "str": "2000-01-01 12:30:45.123456",
+          "strftime_default": "2000-01-01 12:30:45",
+          "strftime_ymd": "2000-01-01"
+        }
+      },
+      {
+        "args": [-4713, 1, 1, 12, 0, 0, 10, "julian"],
+        "out": {
+          "isoformat_default": "-4713-01-01T12:00:00.000010",
+          "isoformat_space": "-4713-01-01 12:00:00.000010",
+          "isoformat_seconds": "-4713-01-01 12:00:00",
+          "isoformat_days": "-4713-01-01",
+          "isoformat_hours": "-4713-01-01T12",
+          "isoformat_minutes": "-4713-01-01T12:00",
+          "isoformat_milliseconds": "-4713-01-01T12:00:00.000",
+          "str": "-4713-01-01 12:00:00.000010",
+          "strftime_default": "-4713-01-01 12:00:00",
+          "strftime_ymd": "-4713-01-01"
+        }
+      },
+      {
+        "args": [-713, 1, 1, 0, 0, 0, 0, "julian"],
+        "out": {
+          "isoformat_default": "-0713-01-01T00:00:00",
+          "isoformat_space": "-0713-01-01 00:00:00",
+          "isoformat_seconds": "-0713-01-01 00:00:00",
+          "isoformat_days": "-0713-01-01",
+          "isoformat_hours": "-0713-01-01T00",
+          "isoformat_minutes": "-0713-01-01T00:00",
+          "isoformat_milliseconds": "-0713-01-01T00:00:00.000",
+          "str": "-0713-01-01 00:00:00",
+          "strftime_default": "-0713-01-01 00:00:00",
+          "strftime_ymd": "-0713-01-01"
+        }
+      },
+      {
+        "args": [1, 1, 1, 0, 0, 0, 0, "proleptic_gregorian"],
+        "out": {
+          "isoformat_default": "0001-01-01T00:00:00",
+          "isoformat_space": "0001-01-01 00:00:00",
+          "isoformat_seconds": "0001-01-01 00:00:00",
+          "isoformat_days": "0001-01-01",
+          "isoformat_hours": "0001-01-01T00",
+          "isoformat_minutes": "0001-01-01T00:00",
+          "isoformat_milliseconds": "0001-01-01T00:00:00.000",
+          "str": "0001-01-01 00:00:00",
+          "strftime_default": "0001-01-01 00:00:00",
+          "strftime_ymd": "0001-01-01"
+        }
+      },
+      {
+        "args": [2020, 2, 30, 0, 0, 0, 0, "360_day"],
+        "out": {
+          "isoformat_default": "2020-02-30T00:00:00",
+          "isoformat_space": "2020-02-30 00:00:00",
+          "isoformat_seconds": "2020-02-30 00:00:00",
+          "isoformat_days": "2020-02-30",
+          "isoformat_hours": "2020-02-30T00",
+          "isoformat_minutes": "2020-02-30T00:00",
+          "isoformat_milliseconds": "2020-02-30T00:00:00.000",
+          "str": "2020-02-30 00:00:00",
+          "strftime_default": "2020-02-30 00:00:00",
+          "strftime_ymd": "2020-02-30"
+        }
+      },
+      {
+        "args": [2000, 6, 15, 6, 0, 0, 0, "noleap"],
+        "out": {
+          "isoformat_default": "2000-06-15T06:00:00",
+          "isoformat_space": "2000-06-15 06:00:00",
+          "isoformat_seconds": "2000-06-15 06:00:00",
+          "isoformat_days": "2000-06-15",
+          "isoformat_hours": "2000-06-15T06",
+          "isoformat_minutes": "2000-06-15T06:00",
+          "isoformat_milliseconds": "2000-06-15T06:00:00.000",
+          "str": "2000-06-15 06:00:00",
+          "strftime_default": "2000-06-15 06:00:00",
+          "strftime_ymd": "2000-06-15"
+        }
+      }
+    ],
+    "convert": [
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 0,
+        "out": {
+          "iso": "2000-01-01 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 1,
+        "out": {
+          "iso": "2000-01-02 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 2,
+        "out": {
+          "iso": "2000-01-03 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 3,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 10,
+        "out": {
+          "iso": "2000-01-11 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 11,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 100,
+        "out": {
+          "iso": "2000-04-10 00:00:00",
+          "y": 2000,
+          "mo": 4,
+          "d": 10,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 1000,
+        "out": {
+          "iso": "2002-09-27 00:00:00",
+          "y": 2002,
+          "mo": 9,
+          "d": 27,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": -1,
+        "out": {
+          "iso": "1999-12-31 00:00:00",
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": -100,
+        "out": {
+          "iso": "1999-09-23 00:00:00",
+          "y": 1999,
+          "mo": 9,
+          "d": 23,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 0.5,
+        "out": {
+          "iso": "2000-01-01 12:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 12,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 1.25,
+        "out": {
+          "iso": "2000-01-02 06:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 6,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 365,
+        "out": {
+          "iso": "2000-12-31 00:00:00",
+          "y": 2000,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "value": 366,
+        "out": {
+          "iso": "2001-01-01 00:00:00",
+          "y": 2001,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 0,
+        "out": {
+          "iso": "0001-01-01 00:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 1,
+        "out": {
+          "iso": "0001-01-01 01:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 1,
+          "H": 1,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 2,
+        "out": {
+          "iso": "0001-01-01 02:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 1,
+          "H": 2,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 10,
+        "out": {
+          "iso": "0001-01-01 10:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 1,
+          "H": 10,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 100,
+        "out": {
+          "iso": "0001-01-05 04:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 5,
+          "H": 4,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 1000,
+        "out": {
+          "iso": "0001-02-11 16:00:00",
+          "y": 1,
+          "mo": 2,
+          "d": 11,
+          "H": 16,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": -1,
+        "out": {
+          "iso": "-0001-12-31 23:00:00",
+          "y": -1,
+          "mo": 12,
+          "d": 31,
+          "H": 23,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": -100,
+        "out": {
+          "iso": "-0001-12-27 20:00:00",
+          "y": -1,
+          "mo": 12,
+          "d": 27,
+          "H": 20,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 0.5,
+        "out": {
+          "iso": "0001-01-01 00:30:00",
+          "y": 1,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 30,
+          "S": 0,
+          "us": 0,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 1.25,
+        "out": {
+          "iso": "0001-01-01 01:15:00",
+          "y": 1,
+          "mo": 1,
+          "d": 1,
+          "H": 1,
+          "M": 15,
+          "S": 0,
+          "us": 0,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 365,
+        "out": {
+          "iso": "0001-01-16 05:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 16,
+          "H": 5,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "value": 366,
+        "out": {
+          "iso": "0001-01-16 06:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 16,
+          "H": 6,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 0,
+        "out": {
+          "iso": "1970-01-01 00:00:00",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 1,
+        "out": {
+          "iso": "1970-01-01 00:00:01",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 1,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 2,
+        "out": {
+          "iso": "1970-01-01 00:00:02",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 2,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 10,
+        "out": {
+          "iso": "1970-01-01 00:00:10",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 10,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 100,
+        "out": {
+          "iso": "1970-01-01 00:01:40",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 1,
+          "S": 40,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 1000,
+        "out": {
+          "iso": "1970-01-01 00:16:40",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 16,
+          "S": 40,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": -1,
+        "out": {
+          "iso": "1969-12-31 23:59:59",
+          "y": 1969,
+          "mo": 12,
+          "d": 31,
+          "H": 23,
+          "M": 59,
+          "S": 59,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": -100,
+        "out": {
+          "iso": "1969-12-31 23:58:20",
+          "y": 1969,
+          "mo": 12,
+          "d": 31,
+          "H": 23,
+          "M": 58,
+          "S": 20,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 0.5,
+        "out": {
+          "iso": "1970-01-01 00:00:00.500000",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 500000,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 1.25,
+        "out": {
+          "iso": "1970-01-01 00:00:01.250000",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 1,
+          "us": 250000,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 365,
+        "out": {
+          "iso": "1970-01-01 00:06:05",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 6,
+          "S": 5,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "seconds since 1970-01-01 00:00:00",
+        "calendar": "proleptic_gregorian",
+        "value": 366,
+        "out": {
+          "iso": "1970-01-01 00:06:06",
+          "y": 1970,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 6,
+          "S": 6,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 0,
+        "out": {
+          "iso": "1600-02-28 00:00:00",
+          "y": 1600,
+          "mo": 2,
+          "d": 28,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 1,
+        "out": {
+          "iso": "1600-03-01 00:00:00",
+          "y": 1600,
+          "mo": 3,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 2,
+        "out": {
+          "iso": "1600-03-02 00:00:00",
+          "y": 1600,
+          "mo": 3,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 10,
+        "out": {
+          "iso": "1600-03-10 00:00:00",
+          "y": 1600,
+          "mo": 3,
+          "d": 10,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 100,
+        "out": {
+          "iso": "1600-06-08 00:00:00",
+          "y": 1600,
+          "mo": 6,
+          "d": 8,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 1000,
+        "out": {
+          "iso": "1602-11-25 00:00:00",
+          "y": 1602,
+          "mo": 11,
+          "d": 25,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": -1,
+        "out": {
+          "iso": "1600-02-27 00:00:00",
+          "y": 1600,
+          "mo": 2,
+          "d": 27,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": -100,
+        "out": {
+          "iso": "1599-11-20 00:00:00",
+          "y": 1599,
+          "mo": 11,
+          "d": 20,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 0.5,
+        "out": {
+          "iso": "1600-02-28 12:00:00",
+          "y": 1600,
+          "mo": 2,
+          "d": 28,
+          "H": 12,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 1.25,
+        "out": {
+          "iso": "1600-03-01 06:00:00",
+          "y": 1600,
+          "mo": 3,
+          "d": 1,
+          "H": 6,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 365,
+        "out": {
+          "iso": "1601-02-28 00:00:00",
+          "y": 1601,
+          "mo": 2,
+          "d": 28,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "value": 366,
+        "out": {
+          "iso": "1601-03-01 00:00:00",
+          "y": 1601,
+          "mo": 3,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 0,
+        "out": {
+          "iso": "2000-01-01 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 1,
+        "out": {
+          "iso": "2000-01-02 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 2,
+        "out": {
+          "iso": "2000-01-03 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 3,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 10,
+        "out": {
+          "iso": "2000-01-11 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 11,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 100,
+        "out": {
+          "iso": "2000-04-11 00:00:00",
+          "y": 2000,
+          "mo": 4,
+          "d": 11,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 1000,
+        "out": {
+          "iso": "2002-10-11 00:00:00",
+          "y": 2002,
+          "mo": 10,
+          "d": 11,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": -1,
+        "out": {
+          "iso": "1999-12-30 00:00:00",
+          "y": 1999,
+          "mo": 12,
+          "d": 30,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": -100,
+        "out": {
+          "iso": "1999-09-21 00:00:00",
+          "y": 1999,
+          "mo": 9,
+          "d": 21,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 0.5,
+        "out": {
+          "iso": "2000-01-01 12:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 12,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 1.25,
+        "out": {
+          "iso": "2000-01-02 06:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 6,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 365,
+        "out": {
+          "iso": "2001-01-06 00:00:00",
+          "y": 2001,
+          "mo": 1,
+          "d": 6,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "days since 2000-01-01",
+        "calendar": "360_day",
+        "value": 366,
+        "out": {
+          "iso": "2001-01-07 00:00:00",
+          "y": 2001,
+          "mo": 1,
+          "d": 7,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 0,
+        "out": {
+          "iso": "0000-01-01 00:00:00",
+          "y": 0,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 1,
+        "out": {
+          "iso": "0000-02-01 00:00:00",
+          "y": 0,
+          "mo": 2,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 2,
+        "out": {
+          "iso": "0000-03-01 00:00:00",
+          "y": 0,
+          "mo": 3,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 10,
+        "out": {
+          "iso": "0000-11-01 00:00:00",
+          "y": 0,
+          "mo": 11,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 100,
+        "out": {
+          "iso": "0008-05-01 00:00:00",
+          "y": 8,
+          "mo": 5,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 1000,
+        "out": {
+          "iso": "0083-05-01 00:00:00",
+          "y": 83,
+          "mo": 5,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": -1,
+        "out": {
+          "iso": "-0001-12-01 00:00:00",
+          "y": -1,
+          "mo": 12,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": -100,
+        "out": {
+          "iso": "-0009-09-01 00:00:00",
+          "y": -9,
+          "mo": 9,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 0.5,
+        "out": {
+          "iso": "0000-01-16 00:00:00",
+          "y": 0,
+          "mo": 1,
+          "d": 16,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 1.25,
+        "out": {
+          "iso": "0000-02-08 12:00:00",
+          "y": 0,
+          "mo": 2,
+          "d": 8,
+          "H": 12,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 365,
+        "out": {
+          "iso": "0030-06-01 00:00:00",
+          "y": 30,
+          "mo": 6,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "months since 0000-01-01",
+        "calendar": "360_day",
+        "value": 366,
+        "out": {
+          "iso": "0030-07-01 00:00:00",
+          "y": 30,
+          "mo": 7,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 0,
+        "out": {
+          "iso": "0001-01-01 00:00:00",
+          "y": 1,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 1,
+        "out": {
+          "iso": "0002-01-01 00:00:00",
+          "y": 2,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 2,
+        "out": {
+          "iso": "0003-01-01 00:00:00",
+          "y": 3,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 10,
+        "out": {
+          "iso": "0011-01-01 00:00:00",
+          "y": 11,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 100,
+        "out": {
+          "iso": "0101-01-01 00:00:00",
+          "y": 101,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 1000,
+        "out": {
+          "iso": "1001-01-01 00:00:00",
+          "y": 1001,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": -1,
+        "out": {
+          "iso": "0000-01-01 00:00:00",
+          "y": 0,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": -100,
+        "out": {
+          "iso": "-0099-01-01 00:00:00",
+          "y": -99,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 0.5,
+        "out": {
+          "iso": "0001-07-02 12:00:00",
+          "y": 1,
+          "mo": 7,
+          "d": 2,
+          "H": 12,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 1.25,
+        "out": {
+          "iso": "0002-04-02 06:00:00",
+          "y": 2,
+          "mo": 4,
+          "d": 2,
+          "H": 6,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 365,
+        "out": {
+          "iso": "0366-01-01 00:00:00",
+          "y": 366,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "common_years since 0001-01-01",
+        "calendar": "noleap",
+        "value": 366,
+        "out": {
+          "iso": "0367-01-01 00:00:00",
+          "y": 367,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 0,
+        "out": {
+          "iso": "2000-01-01 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 1,
+        "out": {
+          "iso": "2000-01-01 00:00:00.000001",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 1,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 2,
+        "out": {
+          "iso": "2000-01-01 00:00:00.000002",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 2,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 10,
+        "out": {
+          "iso": "2000-01-01 00:00:00.000010",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 10,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 100,
+        "out": {
+          "iso": "2000-01-01 00:00:00.000100",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 100,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 1000,
+        "out": {
+          "iso": "2000-01-01 00:00:00.001000",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 1000,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": -1,
+        "out": {
+          "iso": "1999-12-31 23:59:59.999999",
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 23,
+          "M": 59,
+          "S": 59,
+          "us": 999999,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": -100,
+        "out": {
+          "iso": "1999-12-31 23:59:59.999900",
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 23,
+          "M": 59,
+          "S": 59,
+          "us": 999900,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 0.5,
+        "out": {
+          "iso": "2000-01-01 00:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 1.25,
+        "out": {
+          "iso": "2000-01-01 00:00:00.000001",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 1,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 365,
+        "out": {
+          "iso": "2000-01-01 00:00:00.000365",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 365,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "microseconds since 2000-01-01",
+        "calendar": "standard",
+        "value": 366,
+        "out": {
+          "iso": "2000-01-01 00:00:00.000366",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 366,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 0,
+        "out": {
+          "iso": "2000-01-01 06:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 6,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 1,
+        "out": {
+          "iso": "2000-01-01 07:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 7,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 2,
+        "out": {
+          "iso": "2000-01-01 08:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 8,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 10,
+        "out": {
+          "iso": "2000-01-01 16:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 16,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 100,
+        "out": {
+          "iso": "2000-01-05 10:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 5,
+          "H": 10,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 1000,
+        "out": {
+          "iso": "2000-02-11 22:00:00",
+          "y": 2000,
+          "mo": 2,
+          "d": 11,
+          "H": 22,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": -1,
+        "out": {
+          "iso": "2000-01-01 05:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 5,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": -100,
+        "out": {
+          "iso": "1999-12-28 02:00:00",
+          "y": 1999,
+          "mo": 12,
+          "d": 28,
+          "H": 2,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 0.5,
+        "out": {
+          "iso": "2000-01-01 06:30:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 6,
+          "M": 30,
+          "S": 0,
+          "us": 0,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 1.25,
+        "out": {
+          "iso": "2000-01-01 07:15:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 7,
+          "M": 15,
+          "S": 0,
+          "us": 0,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 365,
+        "out": {
+          "iso": "2000-01-16 11:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 16,
+          "H": 11,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "hours since 2000-01-01 00:00:00 -06:00",
+        "calendar": "standard",
+        "value": 366,
+        "out": {
+          "iso": "2000-01-16 12:00:00",
+          "y": 2000,
+          "mo": 1,
+          "d": 16,
+          "H": 12,
+          "M": 0,
+          "S": 0,
+          "us": 0,
+          "date2num": 366
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 0,
+        "out": {
+          "iso": "2018-01-23 09:31:42.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 31,
+          "S": 42,
+          "us": 940000,
+          "date2num": 0
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 1,
+        "out": {
+          "iso": "2018-01-23 09:31:43.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 31,
+          "S": 43,
+          "us": 940000,
+          "date2num": 1
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 2,
+        "out": {
+          "iso": "2018-01-23 09:31:44.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 31,
+          "S": 44,
+          "us": 940000,
+          "date2num": 2
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 10,
+        "out": {
+          "iso": "2018-01-23 09:31:52.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 31,
+          "S": 52,
+          "us": 940000,
+          "date2num": 10
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 100,
+        "out": {
+          "iso": "2018-01-23 09:33:22.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 33,
+          "S": 22,
+          "us": 940000,
+          "date2num": 100
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 1000,
+        "out": {
+          "iso": "2018-01-23 09:48:22.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 48,
+          "S": 22,
+          "us": 940000,
+          "date2num": 1000
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": -1,
+        "out": {
+          "iso": "2018-01-23 09:31:41.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 31,
+          "S": 41,
+          "us": 940000,
+          "date2num": -1
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": -100,
+        "out": {
+          "iso": "2018-01-23 09:30:02.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 30,
+          "S": 2,
+          "us": 940000,
+          "date2num": -100
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 0.5,
+        "out": {
+          "iso": "2018-01-23 09:31:43.440000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 31,
+          "S": 43,
+          "us": 440000,
+          "date2num": 0.5
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 1.25,
+        "out": {
+          "iso": "2018-01-23 09:31:44.190000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 31,
+          "S": 44,
+          "us": 190000,
+          "date2num": 1.25
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 365,
+        "out": {
+          "iso": "2018-01-23 09:37:47.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 37,
+          "S": 47,
+          "us": 940000,
+          "date2num": 365
+        }
+      },
+      {
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "value": 366,
+        "out": {
+          "iso": "2018-01-23 09:37:48.940000",
+          "y": 2018,
+          "mo": 1,
+          "d": 23,
+          "H": 9,
+          "M": 37,
+          "S": 48,
+          "us": 940000,
+          "date2num": 366
+        }
+      }
+    ],
+    "date2num": [
+      {
+        "args": [2000, 1, 2, 0, 0, 0, 0],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "out": 1
+      },
+      {
+        "args": [1582, 10, 15, 0, 0, 0, 0],
+        "units": "hours since 0001-01-01",
+        "calendar": "standard",
+        "out": 13865688
+      },
+      {
+        "args": [2000, 2, 28, 0, 0, 0, 0],
+        "units": "days since 1600-02-28",
+        "calendar": "noleap",
+        "out": 146000
+      },
+      {
+        "args": [2001, 12, 30, 0, 0, 0, 0],
+        "units": "days since 0000-01-01",
+        "calendar": "360_day",
+        "out": 720719
+      },
+      {
+        "args": [2018, 1, 23, 9, 27, 10, 950000],
+        "units": "seconds since 2018-01-23 09:31:42.94",
+        "calendar": "standard",
+        "out": -271.99
+      }
+    ],
+    "add_timedelta": [
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 1
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": -1
+        },
+        "out": {
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 400
+        },
+        "out": {
+          "y": 2001,
+          "mo": 2,
+          "d": 4,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "hours": 25
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 1,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "seconds": 90
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 1,
+          "S": 30,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "microseconds": 5
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 5
+        }
+      },
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 365
+        },
+        "out": {
+          "y": 2000,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "standard",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 366
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 1
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": -1
+        },
+        "out": {
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 400
+        },
+        "out": {
+          "y": 2001,
+          "mo": 2,
+          "d": 4,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "hours": 25
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 1,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "seconds": 90
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 1,
+          "S": 30,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "microseconds": 5
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 5
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 365
+        },
+        "out": {
+          "y": 2000,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 366
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 1
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": -1
+        },
+        "out": {
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 400
+        },
+        "out": {
+          "y": 2001,
+          "mo": 2,
+          "d": 4,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "hours": 25
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 1,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "seconds": 90
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 1,
+          "S": 30,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "microseconds": 5
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 5
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 365
+        },
+        "out": {
+          "y": 2000,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "julian",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 366
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 1
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": -1
+        },
+        "out": {
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 400
+        },
+        "out": {
+          "y": 2001,
+          "mo": 2,
+          "d": 5,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "hours": 25
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 1,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "seconds": 90
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 1,
+          "S": 30,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "microseconds": 5
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 5
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 365
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "noleap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 366
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 1
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": -1
+        },
+        "out": {
+          "y": 1999,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 400
+        },
+        "out": {
+          "y": 2001,
+          "mo": 2,
+          "d": 4,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "hours": 25
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 1,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "seconds": 90
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 1,
+          "S": 30,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "microseconds": 5
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 5
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 365
+        },
+        "out": {
+          "y": 2000,
+          "mo": 12,
+          "d": 31,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "all_leap",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 366
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 1
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": -1
+        },
+        "out": {
+          "y": 1999,
+          "mo": 12,
+          "d": 30,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 400
+        },
+        "out": {
+          "y": 2001,
+          "mo": 2,
+          "d": 11,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "hours": 25
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 2,
+          "H": 1,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "seconds": 90
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 1,
+          "S": 30,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "microseconds": 5
+        },
+        "out": {
+          "y": 2000,
+          "mo": 1,
+          "d": 1,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 5
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 365
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 6,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      },
+      {
+        "calendar": "360_day",
+        "base": [2000, 1, 1, 0, 0, 0, 0],
+        "delta": {
+          "days": 366
+        },
+        "out": {
+          "y": 2001,
+          "mo": 1,
+          "d": 7,
+          "H": 0,
+          "M": 0,
+          "S": 0,
+          "us": 0
+        }
+      }
+    ],
+    "sub_datetime": [
+      {
+        "calendar": "standard",
+        "micros": 5
+      },
+      {
+        "calendar": "proleptic_gregorian",
+        "micros": 5
+      },
+      {
+        "calendar": "julian",
+        "micros": 5
+      },
+      {
+        "calendar": "noleap",
+        "micros": 5
+      },
+      {
+        "calendar": "all_leap",
+        "micros": 5
+      },
+      {
+        "calendar": "360_day",
+        "micros": 5
+      }
+    ],
+    "gap": [
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 5,
+        "calendar": "standard",
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 14,
+        "calendar": "standard",
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 5,
+        "calendar": "julian",
+        "out": 2299161
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 15,
+        "calendar": "standard",
+        "out": 2299161
+      },
+      {
+        "year": 1582,
+        "month": 10,
+        "day": 4,
+        "calendar": "standard",
+        "out": 2299160
+      }
+    ],
+    "time2index": [
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 0,
+        "out": 0
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 1,
+        "out": 1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 2,
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 2.5,
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 3,
+        "out": 3
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 4.9,
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 5,
+        "out": 5
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 0,
+        "out": -1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 1,
+        "out": 0
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 2,
+        "out": 1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 2.5,
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 3,
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 4.9,
+        "out": 4
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 5,
+        "out": 4
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 0,
+        "out": 1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 1,
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 2,
+        "out": 3
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 2.5,
+        "out": 3
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 3,
+        "out": 4
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 4.9,
+        "out": 5
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 5,
+        "out": 6
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 0,
+        "out": 0
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 1,
+        "out": 1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 2,
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 2.5,
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 3,
+        "out": 3
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 4.9,
+        "out": 5
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 5,
+        "out": 5
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 0,
+        "out": 0
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 1,
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 2,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 2.5,
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 3,
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 4.9,
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "time": 5,
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 0,
+        "out": -1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 1,
+        "out": 0
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 2,
+        "out": 0
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 2.5,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 3,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 4.9,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "time": 5,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 0,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 1,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 2,
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 2.5,
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 3,
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 4.9,
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "time": 5,
+        "out": 3
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 0,
+        "out": 0
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 1,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 2,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 2.5,
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 3,
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 4.9,
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "time": 5,
+        "out": 2
+      }
+    ],
+    "date2index": [
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 1],
+        "out": 0
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 3],
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 6],
+        "out": 5
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 4],
+        "out": 3
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 1],
+        "out": -1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 3],
+        "out": 1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 6],
+        "out": 4
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 4],
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 1],
+        "out": 1
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 3],
+        "out": 3
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 6],
+        "out": 6
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 4],
+        "out": 4
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 1],
+        "out": 0
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 3],
+        "out": 2
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 6],
+        "out": 5
+      },
+      {
+        "axis": "uniform",
+        "values": [0, 1, 2, 3, 4, 5],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 4],
+        "out": 3
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 1],
+        "out": 0
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 3],
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 6],
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "exact",
+        "date": [2000, 1, 4],
+        "out": {
+          "__error__": "ValueError"
+        }
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 1],
+        "out": -1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 3],
+        "out": 0
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 6],
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "before",
+        "date": [2000, 1, 4],
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 1],
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 3],
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 6],
+        "out": 3
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "after",
+        "date": [2000, 1, 4],
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 1],
+        "out": 0
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 3],
+        "out": 1
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 6],
+        "out": 2
+      },
+      {
+        "axis": "irregular",
+        "values": [0, 2, 5, 9, 14],
+        "units": "days since 2000-01-01",
+        "calendar": "standard",
+        "select": "nearest",
+        "date": [2000, 1, 4],
+        "out": 2
+      }
+    ]
+  }
+}
