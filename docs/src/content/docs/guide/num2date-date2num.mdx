@@ -1,0 +1,70 @@
+---
+title: num2date & date2num
+description: The core netCDF time conversions, in depth.
+---
+
+import RunnableCell from "@components/RunnableCell.astro";
+
+These two functions are the heart of the library. Both take a `units` string of
+the form `"<step> since <reference>"` and a calendar.
+
+## Units
+
+The step can be `microseconds`, `milliseconds`, `seconds`, `minutes`, `hours`,
+or `days` (and common abbreviations). The reference date is parsed from the
+`units` string itself.
+
+<RunnableCell
+  title="Different units"
+  code={`console.log(num2date(90, "minutes since 2020-06-01 12:00", { calendar: "standard" }).isoformat(" "));
+console.log(num2date(1.5, "days since 2020-06-01", { calendar: "standard" }).isoformat(" "));
+console.log(num2date(3, "seconds since 2020-06-01", { calendar: "standard" }).isoformat(" "));`}
+/>
+
+## Scalars and arrays
+
+Pass a number to get one `CFDatetime`; pass an array to decode a whole axis
+element-wise.
+
+<RunnableCell
+  title="Array decoding"
+  code={`const axis = num2date([0, 1, 2, 3], "days since 2000-01-01", { calendar: "360_day" });
+axis.map((d) => d.day)`}
+/>
+
+## Non-finite values decode to null
+
+Masked / fill values (`NaN`, `Infinity`) become `null` rather than throwing, so
+a single bad value doesn't sink the whole axis.
+
+<RunnableCell
+  title="NaN → null"
+  code={`const out = num2date([0, NaN, 2], "days since 2000-01-01", { calendar: "standard" });
+out.map((d) => (d === null ? null : d.isoformat()))`}
+/>
+
+## num2pydate: decode to a JS Date
+
+When the calendar is standard/proleptic-Gregorian and you just want a native
+`Date`, `num2pydate` skips the `CFDatetime` wrapper.
+
+<RunnableCell
+  title="num2pydate"
+  code={`const d = num2pydate(0, "days since 2000-01-01", "proleptic_gregorian");
+d instanceof Date`}
+/>
+
+## date2num: the inverse
+
+`date2num` maps datetimes back to numbers under a chosen `units`/`calendar`.
+Choosing coarser units than the data implies rounds toward the represented
+value — pick units fine enough for your data.
+
+<RunnableCell
+  title="date2num"
+  code={`const d = new CFDatetime(2000, 3, 1, 0, 0, 0, 0, { calendar: "noleap" });
+// 'noleap' Feb has 28 days, so Mar 1 is day 59.
+date2num(d, "days since 2000-01-01", { calendar: "noleap" })`}
+/>
+
+Next: [the CFDatetime object](/guide/datetime/).

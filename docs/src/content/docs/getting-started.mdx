@@ -1,0 +1,61 @@
+---
+title: Getting started
+description: Decode and encode a CF time axis in a few lines.
+---
+
+import RunnableCell from "@components/RunnableCell.astro";
+
+A CF time axis is a list of numbers plus a `units` string of the form
+`"<step> since <reference date>"`, interpreted against a **calendar**. cftime-ts
+turns those numbers into datetime objects and back again.
+
+## Decode: numbers → dates
+
+`num2date` accepts a single value or an array. Non-finite values (`NaN`,
+`Infinity`) decode to `null`.
+
+<RunnableCell
+  title="num2date"
+  code={`const units = "hours since 2001-01-01 00:00:00";
+
+// One value, or a whole axis at once.
+const dates = num2date([0, 24, 48], units, { calendar: "standard" });
+dates.map((d) => d.isoformat(" "))`}
+/>
+
+## Encode: dates → numbers
+
+`date2num` is the inverse — give it datetimes and the same `units`/`calendar`,
+and it returns the numeric values a netCDF file would store.
+
+<RunnableCell
+  title="date2num"
+  code={`const units = "hours since 2001-01-01 00:00:00";
+
+const d = new CFDatetime(2001, 1, 3, 0, 0, 0, 0, { calendar: "standard" });
+// Two days after the reference = 48 hours.
+date2num(d, units, { calendar: "standard" })`}
+/>
+
+## Round-trip
+
+Decoding then re-encoding returns the original numbers — this is the invariant
+the differential test suite checks against Python `cftime`.
+
+<RunnableCell
+  title="num2date ∘ date2num"
+  code={`const units = "days since 1900-01-01";
+const values = [0, 100, 365, 1000];
+
+const dates = num2date(values, units, { calendar: "noleap" });
+const back = date2num(dates, units, { calendar: "noleap" });
+
+console.log("decoded:", dates.map((d) => d.isoformat()));
+console.log("re-encoded:", back);`}
+/>
+
+## Where to next
+
+- [The nine calendars](/guide/calendars/) — how each calendar counts days.
+- [num2date & date2num](/guide/num2date-date2num/) — units, arrays, edge cases.
+- [The CFDatetime object](/guide/datetime/) — properties, formatting, ordinals.

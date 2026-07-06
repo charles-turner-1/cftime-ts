@@ -1,0 +1,77 @@
+---
+title: The CFDatetime object
+description: Properties, formatting, and ordinals on the calendar datetime.
+---
+
+import RunnableCell from "@components/RunnableCell.astro";
+
+`CFDatetime` (also exported as `datetime`) is the calendar-aware datetime that
+`num2date` returns and `date2num` consumes. You can also construct one directly.
+
+<RunnableCell
+  title="Construction"
+  code={`// year, month, day, hour, minute, second, microsecond, options
+const d = new CFDatetime(2004, 2, 29, 12, 30, 0, 0, { calendar: "standard" });
+d.isoformat(" ")`}
+/>
+
+## Properties
+
+Beyond the obvious `year … microsecond`, a `CFDatetime` exposes derived,
+calendar-aware fields: `dayofwk` (0 = Monday), `dayofyr` (1-based day of year),
+and `daysinmonth`.
+
+<RunnableCell
+  title="Derived fields"
+  code={`const d = new CFDatetime(2004, 2, 29, 0, 0, 0, 0, { calendar: "standard" });
+console.log("dayofwk:", d.dayofwk);       // 0 = Mon … 6 = Sun
+console.log("dayofyr:", d.dayofyr);       // 60th day of a leap year
+console.log("daysinmonth:", d.daysinmonth);`}
+/>
+
+The same date under `noleap` has no Feb 29 at all — the calendar governs what is
+valid and how days are counted.
+
+<RunnableCell
+  title="daysinmonth by calendar"
+  code={`const feb = (cal) => new CFDatetime(2004, 2, 1, 0, 0, 0, 0, { calendar: cal }).daysinmonth;
+[["standard", feb("standard")], ["noleap", feb("noleap")], ["360_day", feb("360_day")]]`}
+/>
+
+## Formatting
+
+`isoformat(sep?)` gives an ISO-8601 string; `strftime(format)` supports the
+usual C-style directives.
+
+<RunnableCell
+  title="isoformat & strftime"
+  code={`const d = new CFDatetime(2020, 7, 6, 9, 5, 0, 0, { calendar: "standard" });
+console.log(d.isoformat());          // 2020-07-06T09:05:00
+console.log(d.isoformat(" "));       // 2020-07-06 09:05:00
+console.log(d.strftime("%Y-%m-%d (%A)"));`}
+/>
+
+## Ordinals
+
+`toordinal()` returns the integer Julian Day Number (pass `true` for the
+fractional day); `CFDatetime.fromordinal()` is the inverse.
+
+<RunnableCell
+  title="toordinal / fromordinal"
+  code={`const d = new CFDatetime(2000, 1, 1, 0, 0, 0, 0, { calendar: "standard" });
+const jd = d.toordinal();
+console.log("JDN:", jd);
+CFDatetime.fromordinal(jd, "standard").isoformat()`}
+/>
+
+## Parsing strings
+
+`CFDatetime.strptime` parses a string against a format into a datetime on a
+given calendar.
+
+<RunnableCell
+  title="strptime"
+  code={`CFDatetime.strptime("2000-06-15 18:00", "%Y-%m-%d %H:%M", "noleap").isoformat(" ")`}
+/>
+
+Next: [arithmetic & comparison](/guide/arithmetic/).

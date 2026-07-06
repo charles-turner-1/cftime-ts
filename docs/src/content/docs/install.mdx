@@ -1,0 +1,31 @@
+---
+title: Installation
+description: Add cftime-ts to your project.
+---
+
+cftime-ts is published to npm as an ESM-only package with **zero runtime
+dependencies**.
+
+```sh
+npm install cftime-ts
+```
+
+## Importing
+
+Everything is exported from the package root:
+
+```ts
+import { num2date, date2num, CFDatetime, Timedelta } from "cftime-ts";
+import type { CanonicalCalendar, Num2DateOptions } from "cftime-ts";
+```
+
+## Requirements
+
+- **ESM only.** The package sets `"type": "module"` and ships no CommonJS build.
+- **Browser or Node.** No Node built-ins are used, so it runs in the browser, a
+  bundler, Deno, or Node ≥ 18.
+- **Zero runtime dependencies.**
+
+## Status
+
+> Early development (`0.1.x`). The API may change before 1.0.

@@ -1,0 +1,63 @@
+---
+title: netCDF indexing
+description: Locate positions in a monotonic time axis with time2index and date2index.
+---
+
+import RunnableCell from "@components/RunnableCell.astro";
+
+Given a stored time axis (numeric `values` + `units` + `calendar`), these
+functions find the index of a target time. Both take a `select` mode:
+
+- `exact` — the value must be present (else it throws),
+- `before` / `after` — nearest index on that side,
+- `nearest` — closest index either way.
+
+## time2index — index of a numeric time
+
+<RunnableCell
+  title="time2index"
+  code={`const nctime = {
+  units: "days since 2000-01-01",
+  values: [0, 10, 20, 30, 40],
+  calendar: "standard",
+};
+
+console.log("exact 20:", time2index(20, nctime, "exact")); // 2
+console.log("before 25:", time2index(25, nctime, "before")); // 2
+console.log("after 25:", time2index(25, nctime, "after")); // 3
+console.log("nearest 24:", time2index(24, nctime, "nearest"));`}
+/>
+
+## date2index — index of a datetime
+
+`date2index` is the same, but you pass a `CFDatetime` (or an array of them). It
+converts to the axis's numeric units for you.
+
+<RunnableCell
+  title="date2index"
+  code={`const nctime = {
+  units: "days since 2000-01-01",
+  values: [0, 31, 59, 90],   // Jan/Feb/Mar/Apr starts in a noleap year
+  calendar: "noleap",
+};
+
+const target = new CFDatetime(2000, 3, 1, 0, 0, 0, 0, { calendar: "noleap" });
+date2index(target, nctime, { select: "exact" })`}
+/>
+
+## Arrays of targets
+
+Both functions accept arrays and return an array of indices.
+
+<RunnableCell
+  title="Batch lookup"
+  code={`const nctime = {
+  units: "hours since 2000-01-01",
+  values: [0, 6, 12, 18, 24],
+  calendar: "standard",
+};
+
+time2index([5, 11, 23], nctime, "nearest")`}
+/>
+
+That's the tour — see the [API reference](/api/readme/) for the full surface.
